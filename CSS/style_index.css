@@ -1,0 +1,114 @@
+#wrap {
+  width: 750px;
+  height: 100px;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#scaled-frame {
+  width: 1300px;
+  height: 720px;
+  border: 0px;
+}
+
+#scaled-frame {
+  zoom: 0.85;
+  -moz-transform: scale(0.85);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.85);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.85);
+  -webkit-transform-origin: 0 0;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #scaled-frame {
+    zoom: 1;
+
+  }
+}
+
+/*.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}*/
+
+.clock_race {
+  padding-left: 1550px;
+}
+
+.top5PD {
+  position: absolute;
+  left: 467px;
+  top: 120px;
+  width: 550px;
+  height: 310px;
+}
+
+.top5PT {
+  position: absolute;
+  left: 1181px;
+  top: 120px;
+  width: 550px;
+  height: 310px;
+}
+
+.top5PMD {
+  position: absolute;
+  left: 467px;
+  top: 450px;
+  width: 550px;
+  height: 310px;
+}
+
+.top5PMT {
+  position: absolute;
+  left: 1181px;
+  top: 450px;
+  width: 550px;
+  height: 310px;
+}
+
+.sentimentConst {
+  position: absolute;
+  left: 1121px;
+  top: 780px;
+  width: 711px;
+  height: 520px;
+}
+
+.sentimentDriv {
+  position: absolute;
+  left: 365px;
+  top: 780px;
+  width: 711px;
+  height: 520px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 16%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content*/
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

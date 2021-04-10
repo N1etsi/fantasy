@@ -1,8 +1,5 @@
--> add top scorers (drivers / constructors) (fantasy / f1)
--> add points/million
 -> add bottom scorers (drivers / constructors) (fantasy / f1)
 -> finish "about us" section
 -> add ownership charts
 -> past races standings
 -> f1 fantasy mechanics explanation
-->
