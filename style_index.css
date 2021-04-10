@@ -88,6 +88,24 @@ ul a.active {
   height: 310px;
 }
 
+.legend1 {
+  z-index: 2;
+  position: absolute;
+  top: 780px;
+  left: 1300px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.legend2 {
+  z-index: 2;
+  position: absolute;
+  top: 780px;
+  left: 570px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .sentimentConst {
   position: absolute;
   left: 1121px;
