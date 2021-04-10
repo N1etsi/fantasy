@@ -28,6 +28,15 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
+ul a:hover {
+  background-color: #ccc;
+}
+
+ul a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 /*.footer {
   position: fixed;
   left: 0;
@@ -40,6 +49,11 @@ li a, .dropbtn {
 
 .clock_race {
   padding-left: 1550px;
+}
+
+.WIP {
+ background-color: red;
+ text-align: center;
 }
 
 .top5PD {
